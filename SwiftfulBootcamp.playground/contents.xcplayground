@@ -8,5 +8,7 @@
         <page name='Functions'/>
         <page name='Optionals'/>
         <page name='Tuples'/>
+        <page name='OOP'/>
+        <page name='Struct'/>
     </pages>
 </playground>
