@@ -31,12 +31,18 @@ let allDrivers = [
 ]
 
 for driver in allDrivers {
-    if driver.number == 33 {
-        print(driver)
+    print(driver)
+    
+    if driver.number == 11 {
+        break               // exit inner-most loop
     }
 }
 
 // Enumerated loops
 for (i, driver) in allDrivers.enumerated() {
+    if (i == 1) {
+        continue            // continue inner-most loop if condition meets
+    }
+    
     print("\(i) > \(driver)")
 }
