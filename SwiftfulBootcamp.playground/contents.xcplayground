@@ -9,6 +9,10 @@
         <page name='Optionals'/>
         <page name='Tuples'/>
         <page name='OOP'/>
-        <page name='Struct'/>
+        <page name='Structs'/>
+        <page name='Enums'/>
+        <page name='Classes'/>
+        <page name='AccessControl'/>
+        <page name='Arrays'/>
     </pages>
 </playground>
